@@ -43,7 +43,7 @@ static int proc_init(void)
 // 當模組被移除會觸發這個函式 無返回值
 static void proc_exit(void) {
     
-        // 移除/proc/hello項目
+        // 移除/proc/seconds項目
         remove_proc_entry(PROC_NAME, NULL);
 
         printk( KERN_INFO "/proc/%s removed\n", PROC_NAME);
