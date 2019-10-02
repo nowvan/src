@@ -14,6 +14,7 @@
 #include <linux/module.h>
 #include <linux/kernel.h>
 #include <linux/proc_fs.h>
+#include <linux/uaccess.h>
 #include <asm/uaccess.h>
 
 #define BUFFER_SIZE 128

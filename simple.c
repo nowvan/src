@@ -11,7 +11,7 @@ static int simple_init(void)
     
     // <在此加入程式碼>
     // printk(KERN_INFO "");  印出載入時的jiffies，使用％lu來表示，格式為"init_jiffies: XXXXXXXXXXX"，記得換行
-    // printk(KERN_INFO "");  印出系統定義的的HZ，使用％u來表示，格式為"HZ: XXX"，記得換行
+    // printk(KERN_INFO "");  印出系統定義的的HZ，使用％d來表示，格式為"HZ: XXX"，記得換行
        return 0;
 }
 
